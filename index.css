@@ -1,0 +1,28 @@
+body{
+    background-image: url('1366x768_boeing-747-delta-airlines.jpg');
+}
+#login-Name{
+    font-size: 30px;
+        font-family: serif;
+    border-bottom-style: ridge;
+    margin-left:200px;
+    margin-right:100px;
+    color:crimson;
+    
+}
+#login{
+    background-color:black;
+    margin-left:500px;
+    margin-right:200px;
+    margin-top: 200px;
+    opacity: 0.60;
+    padding: 40px 80px 40px 80px;
+}
+.btn{
+    width: 35%;
+     float: left;
+    border-radius: 20px;
+    height: 60px;
+    size: 50px;
+    font-size: 35px;
+}

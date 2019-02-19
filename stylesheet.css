@@ -1,0 +1,206 @@
+   body{
+    
+        background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+        background-image: url('1366x768_boeing-747-delta-airlines.jpg');
+        background-size:cover;
+    
+         }
+.header {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+} 
+a:link, a:visited {
+    box-decoration-break:blue ;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+
+*{  
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: "Core Sans N W01 35 Light";
+  font-weight: normal;
+  margin: .67em 0;
+  display: block;
+}
+
+#registered {
+    margin-top: 50px;
+}
+
+#registered img {
+    margin-bottom: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+#registered span {
+    clear: both;
+    display: block;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.avatar {
+    margin: 10px 0 20px 0;
+}
+
+.module{
+  position:relative;
+  top:10%;    
+  height:65%;
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.user {
+    color: #66d8fc;
+    font-weight: bold;
+}
+
+.userlist {
+    float:left;
+    padding: 30px;
+}
+
+.userlist span {
+    color: #0590fc;
+}
+
+.welcome{
+  position:relative;
+  top:30%;    
+  height:65%;
+  width:900px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 50px;
+}
+
+::-moz-selection {
+  background: #19547c;
+}
+::selection {
+  background: #19547c;
+}
+input::-moz-selection {
+  background: #037db6;
+}
+input::selection {
+  background: #037db6;
+}
+
+body{
+  color:black;
+  background-color:#f0f0f0;
+  font-family:helvetica;
+  background:url('1366x768_boeing-747-delta-airlines.jpg') #0f2439 no-repeat center top;
+}
+
+.body-content{
+  position:relative;
+  top:20px;
+  height:700px;
+  width:800px;
+  margin-left:auto;
+  margin-right:auto; 
+  background: transparent;
+}
+
+
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"]
+input[type="submit"]
+input[type="number"]
+
+{
+  height:30px;
+  width:100%;;
+  display: inline-block;
+  vertical-align: middle;
+  height: 34px;
+  padding: 0 10px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"]
+input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -webkit-transition: background-position 0.2s, background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  transition: background-position 0.2s, background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+select:hover,
+textarea:hover,
+input[type="number"]:hover,
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="email"]:hover,
+input[type="date"]:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+}
+select:focus,
+textarea:focus,
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus {
+  border: 2px solid;
+  border-color: #1e5f99;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}

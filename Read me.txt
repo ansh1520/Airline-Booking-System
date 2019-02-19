@@ -1,0 +1,10 @@
+Steps to  switch on the mysql database:
+1.Run the xampp server
+2.Start Apache and MYSQL server
+3.Click on localhost
+4.Login into phpmyadmin
+
+Steps to run the website:
+1.open the chrome browser
+2.Type localhost/login/index.php
+3.Hence,Website starts running.
